@@ -1,0 +1,93 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the app container covers the viewport height */
+  background-image: url('L.png'); /* Replace 'bg.png' with your image path */
+  background-size: 1380px 700px;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  
+}
+.login-box {
+  background-color: rgba(104, 99, 99, 0.829); /* Black box with reduced transparency */
+  font-family:"Times New Roman", Times, serif;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  width: 300px;
+  height:350px; 
+  max-width: 80%;
+  margin: auto; 
+  font-Size: 20px;
+  margin-top: 30vh;
+  align-items: center;
+  text-align: center;
+}
+.input-field {
+  margin-bottom: 15px;
+  width: 300px; /* Adjust the width as needed */
+  padding: 7px; /* Padding around the input */
+}
+.signup
+{
+  background-image: url('L.png'); 
+  background-size: 1380px 700px;
+  text-align: left;
+  padding: 60px;
+  font-weight: bold;
+  font-Size: 20px;
+  color: white;
+  display: flex;
+  height: 100vh; /* Full viewport height */ 
+  background-repeat:no-repeat;
+  background-attachment: fixed; 
+}
+.Dashboard
+{
+  background-image: url('sign3.png'); /* Replace 'bg.png' with your image path */
+  background-size: cover;
+  text-align: left;
+  font-weight: bold;
+  color: rgb(230, 224, 224);
+  padding: 20px;
+  font-size: 30px;
+  height: 100vh;
+}
+.DashboardMessage
+{
+  color: rgb(230, 224, 224);
+  font-weight: bold;
+  text-align:left ;
+  padding: 10px;
+  margin-top:20px;
+  font-size:26px;
+  font-family: "courgette";
+}
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar nav ul li {
+  float: left;
+}
+
+.navbar nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar nav ul li a:hover {
+  background-color: #ddd;
+  color: black;
+}
